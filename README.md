@@ -1,6 +1,6 @@
 # College Management Portal
 
-A full-stack MERN-based College Management Portal developed as a college project.
+A full-stack MERN-based College Management Portal developed.
 
 ## Team Members
 
