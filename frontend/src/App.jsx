@@ -1,9 +1,12 @@
 import React from 'react'
+import Home from "./pages/Home";
 
-const App = () => {
+function App() {
   return (
-    <div>Tailwind is working!</div>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
