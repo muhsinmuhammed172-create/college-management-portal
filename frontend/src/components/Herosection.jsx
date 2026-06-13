@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import principal from '../assets/principal.png'
 
 const HeroSection = () => {
@@ -38,9 +39,11 @@ const HeroSection = () => {
             with the growing needs of society.
           </p>
 
-          <button className="mt-8 text-red-700 font-semibold text-xl hover:underline">
-            Read More →
-          </button>
+          <Link to="/principal-message">
+            <button className="mt-8 text-red-700 font-semibold text-xl hover:underline">
+                Read More →
+            </button>
+            </Link>
         </div>
 
       </div>

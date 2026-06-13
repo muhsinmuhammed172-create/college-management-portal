@@ -1,15 +1,25 @@
 import './App.css'
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+
 import Home from "./pages/Home";
-import HeroSection from './components/Herosection';
+import PrincipalMessage from './components/PrincipalMessage';
 
 function App() {
   return (
-    <div>
-      <Home />
-      <HeroSection />
-    </div>
-  );
+    <Routes>
+
+      {/* Home Page */}
+      <Route path="/" element={<Home />} />
+
+      {/* Principal Message Page */}
+      <Route
+        path="/principal-message"
+        element={<PrincipalMessage />}
+      />
+
+    </Routes>
+  )
 }
 
-export default App;
+export default App

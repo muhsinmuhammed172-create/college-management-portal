@@ -29,7 +29,7 @@ const NavBar = () => {
             <li><a href="#about" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">About Us</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Academics</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Admissions</a></li>
-            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Contact</a></li>
+            <li><a href="#contact" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Contact</a></li>
             <li className="relative group">
             <button className="hover:text-red-900">Login ▼</button>
             <div className="absolute right-0 top-full pt-2 w-48 bg-white rounded-lg shadow-lg hidden group-hover:block z-50">
