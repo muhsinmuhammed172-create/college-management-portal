@@ -30,7 +30,17 @@ const NavBar = () => {
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Academics</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Admissions</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Contact</a></li>
-            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Login ▼</a></li>
+            <li className="relative group">
+            <button className="hover:text-red-900">Login ▼</button>
+            <div className="absolute right-0 top-full pt-2 w-48 bg-white rounded-lg shadow-lg hidden group-hover:block z-50">
+              <a href="#" className="block px-4 py-3 hover:bg-gray-100">
+                Student Login
+              </a>
+              <a href="#" className="block px-4 py-3 hover:bg-gray-100">
+                Teacher Login
+              </a>
+            </div>
+          </li>
         </ul>
 
     </nav>

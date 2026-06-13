@@ -6,7 +6,7 @@ import img_college from '../assets/img_college.png';
 function Home() {
   return (
     <div>
-
+      
       <TopBar />
       <NavBar />
 
