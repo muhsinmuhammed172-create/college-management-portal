@@ -26,7 +26,7 @@ const NavBar = () => {
 
         {/* Navigation Links */}
         <ul className="flex gap-8 font-medium text-gray-700">
-            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">About Us</a></li>
+            <li><a href="#about" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">About Us</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Academics</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Admissions</a></li>
             <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Contact</a></li>
