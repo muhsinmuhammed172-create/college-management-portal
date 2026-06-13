@@ -8,23 +8,21 @@ const NavBar = () => {
     <nav className="bg-white shadow-md h-20 flex items-center justify-between px-10 sticky top-0 z-50">
 
         {/* Logo Section */}
-        <div className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-4">
           <img
             src={logo}
-            alt="College Logo"
-            className="h-10 w-10 object-contain"
+            alt="KTM College Logo"
+            className="w-19 h-19 object-contain"
           />
-
-          <div className="flex flex-col">
-            <h1 className="text-lg md:text-xl font-bold text-red-900 leading-tight">
+          <div>
+            <h1 className="text-2xl font-bold text-red-900 leading-tight">
               KTM College
             </h1>
-
-            <p className="text-xs md:text-sm text-gray-600">
+            <p className="text-gray-600">
               Science and Technology
             </p>
           </div>
-        </div>
+        </Link>
 
         {/* Navigation Links */}
         <ul className="flex gap-8 font-medium text-gray-700">
