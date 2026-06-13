@@ -1,28 +1,36 @@
 import React from 'react'
+import logo from '../assets/logo.png'
 
 const NavBar = () => {
   return (
-    <nav className="bg-white shadow-md h-20 flex items-center justify-between px-10">
+    <nav className="bg-white shadow-md h-20 flex items-center justify-between px-10 sticky top-0 z-50">
 
         {/* Logo Section */}
         <div className="flex items-center gap-3">
-            <img
-            src="/logo.png"
+          <img
+            src={logo}
             alt="College Logo"
-            className="h-12 w-12"
-            />
-            <h1 className="text-xl font-bold text-red-900">
-            KTM College of Science and Technology
+            className="h-10 w-10 object-contain"
+          />
+
+          <div className="flex flex-col">
+            <h1 className="text-lg md:text-xl font-bold text-red-900 leading-tight">
+              KTM College
             </h1>
+
+            <p className="text-xs md:text-sm text-gray-600">
+              Science and Technology
+            </p>
+          </div>
         </div>
 
         {/* Navigation Links */}
         <ul className="flex gap-8 font-medium text-gray-700">
-            <li><a href="#" className="hover:text-red-900">About Us</a></li>
-            <li><a href="#" className="hover:text-red-900">Departments</a></li>
-            <li><a href="#" className="hover:text-red-900">Students Login</a></li>
-            <li><a href="#" className="hover:text-red-900">Teachers Login</a></li>
-            <li><a href="#" className="hover:text-red-900">Contact</a></li>
+            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">About Us</a></li>
+            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Academics</a></li>
+            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Admissions</a></li>
+            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Contact</a></li>
+            <li><a href="#" className="hover:text-red-900 hover:scale-110 transition-all duration-300 inline-block">Login ▼</a></li>
         </ul>
 
     </nav>
