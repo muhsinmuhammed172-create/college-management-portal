@@ -33,12 +33,12 @@ const NavBar = () => {
             <li className="relative group">
             <button className="hover:text-red-900">Login ▼</button>
             <div className="absolute right-0 top-full pt-2 w-48 bg-white rounded-lg shadow-lg hidden group-hover:block z-50">
-              <a href="#" className="block px-4 py-3 hover:bg-gray-100">
+              <Link to="/student-login" className="block px-4 py-3 hover:bg-gray-100">
                 Student Login
-              </a>
-              <a href="#" className="block px-4 py-3 hover:bg-gray-100">
+              </Link>
+              <Link to="/teacher-login" className="block px-4 py-3 hover:bg-gray-100">
                 Teacher Login
-              </a>
+              </Link>
             </div>
           </li>
         </ul>

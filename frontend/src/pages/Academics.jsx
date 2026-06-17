@@ -8,7 +8,7 @@ const Academics = () => {
   return (
     <div>
       <TopBar />
-      <NavBar />
+      {/* <NavBar /> */}
 
       <section className="bg-gray-100 min-h-screen py-16 px-6">
         <div className="max-w-7xl mx-auto">

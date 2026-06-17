@@ -13,7 +13,7 @@ function Home() {
     <div>
 
       <TopBar />
-      <NavBar />
+      {/* <NavBar /> */}
 
       {/* Hero Section */}
       <section
