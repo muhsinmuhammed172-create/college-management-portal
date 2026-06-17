@@ -18,13 +18,12 @@ app.get("/", (req, res) => {
   res.send("Backend Running...");
 });
 
-
 const PORT = process.env.PORT || 5000;
 
 
 // Database connection
 mongoose.connect(
- process.env.MONGO_URI,
+ process.env.MONGODBURL,
  {
    serverSelectionTimeoutMS: 5000
  }
